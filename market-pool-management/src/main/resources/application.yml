@@ -1,0 +1,34 @@
+
+spring:
+  jackson:
+    mapper:
+      default-view-inclusion: true
+    serialization:
+      write-date-keys-as-timestamps: false  
+
+  mvc:
+    throw-exception-if-no-handler-found: true
+    
+  
+    
+  mail:
+    default-encoding: UTF-8
+    host: smtp.gmail.com
+    username: resourcepool.app@gmail.com
+    password: cgesflpuyrkyhfff
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    protocol: smtp
+    test-connection: false
+  application:
+    name: resource_pool_management
+    environment: dev
+    
+name:
+  mail:    - satyam.s@testyantra.com
+    - aayush.s@testyantra.in
